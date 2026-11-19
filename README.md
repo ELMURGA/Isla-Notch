@@ -2,7 +2,7 @@
 
 **An interactive MacBook notch companion for notifications, music, battery, calendar and timers.** Isla is a native macOS menu bar app built with Swift and SwiftUI. It is designed for MacBooks with a built-in notch and runs locally on your Mac.
 
-> Isla is an independent project. Its notch concept was inspired by [Coucou](https://github.com/Louis-CFM/coucou), distributed under the MIT License. Isla's implementation, interface and assets are original.
+> Isla is an independent project. Its notch concept was inspired by [Coucou](https://github.com/Louis-CFM/coucou), distributed under the MIT License. Isla's implementation and interface are original.
 
 ## Features
 
@@ -112,7 +112,7 @@ Package.swift             Swift package manifest
 
 ## License
 
-Isla is released under the MIT License. See [LICENSE](LICENSE). The original idea and technique for a notch companion were inspired by Coucou; its code, sounds and graphics are not included.
+Isla's source code is released under the MIT License. See [LICENSE](LICENSE). The original idea and technique for a notch companion were inspired by Coucou; its code, sounds and graphics are not included. The brand icons come from [Simple Icons](https://simpleicons.org/) and are distributed under CC0; the corresponding brand names and marks remain the property of their owners.
 
 ## Credits
 
