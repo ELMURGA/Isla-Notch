@@ -1,0 +1,13 @@
+# SwiftPM and Xcode output
+.build/
+build/
+DerivedData/
+
+# macOS metadata
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Local editor settings and logs
+.vscode/*.log
+*.swiftsourceinfo

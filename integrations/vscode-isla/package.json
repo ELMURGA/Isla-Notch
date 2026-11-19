@@ -1,0 +1,25 @@
+{
+  "name": "isla-vscode-notifications",
+  "displayName": "Isla: avisos de tareas de VS Code",
+  "description": "Envía a Isla un aviso cuando termina una tarea de Visual Studio Code.",
+  "version": "0.1.0",
+  "publisher": "dazenty-local",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "configuration": {
+      "title": "Isla",
+      "properties": {
+        "isla.notifyWhenTaskEnds": {
+          "type": "boolean",
+          "default": true,
+          "description": "Muestra un aviso de Isla cuando termina una tarea de VS Code."
+        }
+      }
+    }
+  }
+}
